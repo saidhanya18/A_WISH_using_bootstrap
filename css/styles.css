@@ -1,0 +1,176 @@
+ body {
+   font-family: "Montserrat";
+
+ }
+
+ #title {
+   color: #fff;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Montserrat-Bold";
+ }
+
+ h3 {
+   font-weight: bold;
+   font-size: 3rem;
+ }
+
+ /* classes for h1 h2 etc */
+ .classh1 {
+   font-family: "Montserrat-Bold 700 Italic";
+   font-size: 7.5rem;
+   font-weight: bold;
+   /**line-height: 1.5;*/
+ }
+
+ .classh2 {
+   font-family: "Montserrat-Bold 700 Italic";
+   font-size: 3.5rem;
+   line-height: 1.5;
+ }
+
+ .container {
+   padding: auto 25%;
+   padding-bottom: 10%;
+   line-height: 4.5rem;
+ }
+ /* sections */
+ .coloured{
+   background-color: #069A8E;
+   color: #fff;
+ }
+.white-section{
+  background-color: #fff;
+}
+ /* Navigation bar */
+ .navbar {
+   padding: 0 0 4.5rem;
+   font-size: 1.5rem;
+ }
+
+ .navbar-bd {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+
+ .nav-item {
+   padding: 0 18px;
+ }
+
+ /* Download buttons */
+ .download-button {
+   margin: 10% 3% 5% 0;
+ }
+
+ /* Title Image */
+ .Title-img {
+   width: 43%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 4%;
+ }
+
+ #features {
+   padding: 7% 15%;
+   color: auto;
+   position: relative;
+   /*retaive keeps all the html elememts in the flow whereas absolute does not  */
+   z-index: 1;
+ }
+
+ .feature-box {
+   text-align: center;
+   padding: 5%;
+ }
+
+ .icon {
+   color: #069A8E;
+   margin-bottom: 1rem;
+ }
+
+ .icon:hover {
+   color: #005555;
+ }
+
+ /* testimonials */
+ #testimonials {
+   text-align: center;
+ }
+
+ .carousel-item {
+   padding: 7% 15%;
+ }
+
+ .testimonials-image {
+   width: 35%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+ #press {
+   background-color: #069A8E;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .Press-logo {
+   width: 15%;
+   margin: 20px 20px 15px;
+ }
+ .testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ /* PRICING SECTION */
+ #pricing {
+   padding: 100px;
+   text-align: center;
+ }
+
+ .pricing-cloumn {
+   padding: 3% 2%;
+ }
+ .price-text{
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+
+ /* CTA SECTION */
+ #cta {
+   background-color: #069A8E;
+   text-align: center;
+   color: #fff;
+   font-family: "Montserrat-Bold 700 Italic";
+   padding: 7% 15%;
+ }
+
+ .cta-heading {
+   font-size: 4.5rem;
+   line-height: 1;
+ }
+
+ /* footer section */
+ #footer {
+   padding: 7% 15%;
+   text-align: center;
+ }
+
+ .social-icon {
+   margin: 20px 10px;
+   /* 20px top and bottom 10 px left and right */
+ }
+
+ /* for responsiveness of the website media query */
+ @media(max-width: 1028px) {
+   #title {
+     text-align: center;
+   }
+
+   .Title-img {
+     position: static;
+     tranform: rotate(0);
+   }
+ }
